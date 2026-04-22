@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "apiVersion": "1.0.0",
+    "author": "Toby Cowles",
+    "name": "LTC2265-14 ADC Decoder",
+    "description": "Decodes LTC2265-14 ADC in 2-lane, 14-bit serialization mode. Requires Probing: DCO, FRAME, OUT1A, OUT1B.",
+    "extensions": {
+        "LTC2265-14 Decoder": {
+            "type": "HighLevelAnalyzer",
+            "entryPoint": "ltc2265.LTC2265Decoder"
+        }
+    }
+}
